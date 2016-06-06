@@ -30,6 +30,27 @@ int main(){
         cout << "---------------------" << endl;
         cout << "Sua escolha: ";
         cin >> pedido;
+        switch (pedido)
+        {
+            case 1:
+                conta += PINGA;
+                break;
+            case 2:
+                conta += DOLLY;
+                break;
+            case 3:
+                conta += COCA;
+                break;
+            case 4:
+                conta += COROTE;
+                break;
+            case 5:
+                conta += ESPETO;
+                break;
+            case 6:
+                conta += TORRESMO;
+                break;
+        }
     }
     cout << "Total da conta: "<< conta << endl;
     cout << "Volte sempre!" << endl;
