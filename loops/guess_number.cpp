@@ -12,7 +12,7 @@ int main(){
     int x;
     int y;
     char cont;
-    srand (time(NULL)); //inicia a semente aleatória com a hora atual
+    srand (2); //inicia a semente aleatória com a hora atual
     cout << "Adivinha um numero" << endl;
     cout << "==================" << endl;
     do {
