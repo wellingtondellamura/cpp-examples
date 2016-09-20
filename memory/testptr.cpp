@@ -2,19 +2,25 @@
 
 using namespace std;
 
+void atrib(int *x, int valor){
+  *x = valor;
+}
+
 int main(){
     int x = 10;
-    cout << "Now ptr points to: "<< &x << endl;
-    int *ptr = &x;
-    cout << "Address that ptr points: ";
-    cout << ptr << endl;
-    cout << "Value of the address that ptr points: ";
-    cout << *ptr << endl;
-    cout << "Address of ptr: ";
-    cout << &ptr << endl;
-    cout << "Change ptr to 50: *ptr = 50;" << endl;
-    *ptr = 50;
-    cout << "The new value of x:";
-    cout << x << endl;
+    int y = 20;
+    int *p;
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+    p = &x;
+    *p = 30;
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+    p = &y;
+    *p = 100;
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+    atrib(&x, 500);
+
     return 0;
 }
