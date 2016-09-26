@@ -30,4 +30,5 @@ int main(){
     cout << "Enter your birthdate:" << endl;
     read_date(&d1, &m1, &y1);
     cout << "You born in " << y1 << endl;
+    return 0;
 }
