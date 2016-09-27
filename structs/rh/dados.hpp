@@ -16,5 +16,4 @@ struct Funcionario{
     double salario;
     Setor setor;
 };
-
 #endif /* DADOS_HPP_ */
