@@ -5,6 +5,7 @@
 
 #define MAX 5
 
+
 struct Lista_setor{
     int size = 0;
     Setor items[MAX];
@@ -16,6 +17,30 @@ struct Lista_setor{
             return true;
         } else {
             return false;
+        }
+    }
+    /*
+        Esta função remove um elemento da lista de setores.
+        Se a posição informada for válida, o elemento é removido e a função retorna true.
+        Caso contrário retorna false.
+    */
+    bool remover(int pos){
+        //validar a posição
+        //a posição deve ser maior que zero e menor que o tamanho.
+        if (pos < 0 || pos >= size){
+            return false;
+        }
+        //diminui o tamanho da lista
+        size--;
+        for (int i = pos; i < size; i++){
+            items[i] = items[i+1];
+        }
+        return true;
+    }
+
+    Setor ler(int pos){
+        if (pos > 0 && pos < size){
+            return items[pos];
         }
     }
 };
