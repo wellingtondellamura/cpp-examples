@@ -8,8 +8,6 @@ int main(){
     int* ptr = NULL;
     int max = 100000000;
     srand(time(NULL));
-    // cout << "Quantos números deseja sortear?" << endl;
-    // cin >> max;
     ptr = (int*) malloc(sizeof(int)*max);
     cout << "Sorteando os números...";
     for (int i = 0; i < max; i++){
