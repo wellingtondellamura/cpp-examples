@@ -1,27 +1,28 @@
-AC;Acre
-AL;Alagoas
-AM;Amapá
-AP;Amazonas
-BA;Bahia
-CE;Ceará
-DF;Distrito Federal
-ES;Espírito Santo
-GO;Goiás
-MA;Maranhão
-MG;Mato Grosso
-MS;Mato Grosso do Sul
-MT;Minas Gerais
-PA;Pará
-PB;Paraíba
-PE;Paraná
-PI;Pernambuco
-PR;Piauí
-RJ;Rio de Janeiro
-RN;Rio Grande do Norte
-RO;Rio Grande do Sul
-RR;Rondônia
-RS;Roraima
-SC;Santa Catarina
-SE;São Paulo
-SP;Sergipe
-TO;Tocantins
+RO,RONDONIA
+AC,ACRE
+AM,AMAZONAS
+RR,RORAIMA
+PA,PARA
+AP,AMAPÁ
+TO,TOCANTINS
+MA,MARANHAO
+PI,PIAUI
+CE,CEARA
+RN,RIO GRANDE DO NORTE
+PB,PARAIBA
+PE,PERNAMBUCO
+AL,ALAGOAS
+SE,SERGIPE
+BA,BAHIA
+MG,MINAS GERAIS
+ES,ESPIRITO SANTO
+RJ,RIO DE JANEIRO
+SP,SAO PAULO
+PR,PARANÁ
+SC,SANTA CATARINA
+RS,RIO GRANDE DO SUL
+MS,MATO GROSSO DO SUL
+MT,MATO GROSSO
+GO,GOIAS
+DF,DISTRITO FEDERAL
+ZZ,FORA DO PAIS

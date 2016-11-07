@@ -81,7 +81,7 @@ void listar(){
         }
         getline(arq, telefone);
         getline(arq, email);
-        cout << nome << "\t\t" << telefone << "\t\t" << email << endl;
+        cout << nome << "\t" << telefone << "\t" << email << endl;
     }
     arq.close();
 }
