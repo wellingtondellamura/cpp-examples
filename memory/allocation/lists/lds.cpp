@@ -7,8 +7,12 @@ using namespace std;
 struct DList{
     int max = 0;
     int size = 0;
-    int inc = 10;
+    int inc = 2;
     int* items = NULL;
+
+    void destruir(){
+        free(items);
+    }
 
     bool insert(int x){
         cout << "Insert " << x << endl;
@@ -37,7 +41,7 @@ struct DList{
 int main(){
     DList list;
     srand(time(NULL));
-    for (int i = 0; i < 11; i++){
+    for (int i = 0; i < 10; i++){
         int x = rand() % 100 + 1;
         list.insert(x);
     }
