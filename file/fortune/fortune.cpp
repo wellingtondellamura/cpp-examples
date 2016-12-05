@@ -33,7 +33,6 @@ void carregar_config(string config){
     fstream cfg;
     cfg.open(config.c_str(), ios::in);
     if (cfg.fail()){
-        cfg.close();
         contar_frases();
     }else{
         int x = 0;
@@ -43,6 +42,7 @@ void carregar_config(string config){
             cont_arqs[x] = atoi(linha.c_str());
             x++;
         }
+        cfg.close();
     }
 }
 
@@ -72,7 +72,6 @@ void contar_frases(){
 }
 
 string obter_frase(string arquivo, int x){
-    string frase = "";
     fstream arq;
     arq.open(arquivo.c_str(), ios::in);
     for (int i = 0; i<x-1; i++){
@@ -84,6 +83,7 @@ string obter_frase(string arquivo, int x){
             }
         }
     }
+    string frase = "";
     while (arq.good()){
         string linha;
         getline(arq, linha);

@@ -1,0 +1,3 @@
+O arquivo cep.csv contém as informações do intervalo de CEP (código de endereçamento postal) de todas as cidades do Brasil.
+As informações estão organizadas em quatro (4) campos separados por ponto e vírgula (;) conforme a sequencia: 
+MUNICIPIO;CEP_INICIAL;CEP_FINAL;UF

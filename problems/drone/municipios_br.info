@@ -1,0 +1,3 @@
+O arquivo municipios_br.csv contém as informações de latitude e longitude de todas as cidades do Brasil.
+As informações estão organizadas em cinco (5) campos separados por ponto e vírgula (;) conforme a sequencia: 
+ID;LATITUDE;LONGITUDE;MUNICIPIO;UF
