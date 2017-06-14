@@ -6,7 +6,6 @@
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>
 using namespace std;
-
 int main(){
     try {
         sql::Driver *driver;
@@ -14,7 +13,7 @@ int main(){
         sql::Statement *stmt;
         sql::ResultSet *res;
         driver = get_driver_instance();
-        con = driver->connect("tcp://127.0.0.1:3306", "root", "123456");
+        con = driver->connect("tcp://127.0.0.1:3306", "root", "abc123*");
         con->setSchema("prog1");
         stmt = con->createStatement();
         res = stmt->executeQuery("SELECT matricula, nome from alunos");
