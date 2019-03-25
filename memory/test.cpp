@@ -25,18 +25,9 @@ int main(){
     // std::cout << &y << "\n";
     // printf("%d\n", x);
     // return 0;
-    int *x;
-    x = (int*) malloc(sizeof(int)*10);
-    x[0] = 10;
-    x[1] = 20;
-    x[2] = 30;
-    x[3] = 40;
-    // for (int i = 0; i<10; i++){
-    //     printf("%d\n", x[i]);
-    // }
-
-    printf("%d\n", *x);
-    x=x+3;
-    printf("%d\n", *x);
+    char x[1];
+    for (int i = 0; i<10000000000; i++){
+         std::cout << x[i];
+    }
 
 }
